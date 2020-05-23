@@ -1,0 +1,68 @@
+<htmL>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            COVID-19 Data
+        </title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" style="font-weight: bold;" href="#home">PURE JAVASCRIPT COVID-19 DATA</a>
+            <a href="#esco">by Esco</a>
+        </div>
+
+        <!-- INDONESIA SECTION -->
+        <div class="container">
+            <div class="title">
+                <h1>COVID-19 Data</h1>
+                <p>Live Data Indonesia</p>
+            </div>
+            <div class="datagrid">
+                <div class="confirmed">
+                    <p style="font-weight: bold;">POSITIF</p>
+                    <h1 id="positif">-</h1>
+                    <p>Orang</p>
+                </div>
+                <div class="recovered">
+                    <p style="font-weight: bold;">SEMBUH</p>
+                    <h1 id="sembuh">-</h1>
+                    <p>Orang</p>
+                </div>
+                <div class="death">
+                    <p style="font-weight: bold;">KEMATIAN</p>
+                    <h1 id="meninggal">-</h1>
+                    <p>Orang</p>
+                </div>
+            </div>
+            <p style="text-align: center; padding: 20px;">Sumber data : Kementerian Kesehatan & JHU</p>
+        </div>
+
+        <!-- GLOBAL SECTION -->
+        <div class="container">
+            <div class="title">
+                <h1>COVID-19 Data GLOBAL</h1>
+                <p>Live Data Global</p>
+            </div>
+            <div class="datagrid">
+                <div class="confirmed">
+                    <p style="font-weight: bold;">CONFIRMED</p>
+                    <h1 id="confirmed">-</h1>
+                    <p>People</p>
+                </div>
+                <div class="recovered">
+                    <p style="font-weight: bold;">RECOVERED</p>
+                    <h1 id="recovered">-</h1>
+                    <p>People</p>
+                </div>
+                <div class="death">
+                    <p style="font-weight: bold;">DEATH</p>
+                    <h1 id="death">-</h1>
+                    <p>People</p>
+                </div>
+            </div>
+            <p style="text-align: center; padding: 20px;">Data Source : worldometers.info</p>
+        </div>
+    </body>
+    <!-- Always to put the javascript here to get the loaded elements or it will throw an error -->
+    <script type="text/javascript" src="fetchdata.js"></script>
+</htmL>
